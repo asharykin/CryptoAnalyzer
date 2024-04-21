@@ -18,7 +18,7 @@ public class Main {
         showDecryptionMenu();
     }
 
-    static void showEncryptionMenu() {
+    public static void showEncryptionMenu() {
         System.out.println("Текст для шифрования должен быть расположен в " + inputPath);
 
         System.out.println();
@@ -40,7 +40,7 @@ public class Main {
         System.out.println("Зашифрованный текст был записан в " + outputPath);
     }
 
-    static void showDecryptionMenu() {
+    public static void showDecryptionMenu() {
         System.out.println("Зашифрованный текст расположен в " + outputPath);
 
         System.out.println();
